@@ -12,26 +12,26 @@ El género influye en las preferencias de productos, con una mayor preferencia p
 
 ## Pasos del Análisis:
 
-1. Exploración y Limpieza de los Datos:
+# 1. Exploración y Limpieza de los Datos:
 Se realizaron varias transformaciones para preparar los datos, eliminando columnas irrelevantes como Name, Email, Phone, que no aportaban al análisis principal.
 Se manejaron valores faltantes mediante eliminación o imputación de valores, dependiendo de su importancia para el análisis.
 
-2. Análisis Exploratorio de Datos (EDA):
+# 2. Análisis Exploratorio de Datos (EDA):
 
-# Visualizaciones de datos para explorar las relaciones entre distintas variables:
+### Visualizaciones de datos para explorar las relaciones entre distintas variables:
 Ventas por categoría y método de pago: Electrónica y ropa mostraron montos más altos, mientras que los métodos de pago con tarjeta de crédito tendieron a asociarse con compras de mayor valor.
 Distribución de monto de compra por género: No se observó una diferencia significativa en el valor total de compra entre géneros.
 Métodos de envío y satisfacción del cliente: Los métodos de envío más rápidos, como Same-Day, estuvieron relacionados con una mayor satisfacción del cliente.
 
-3. Reducción de Dimensionalidad:
+# 3. Reducción de Dimensionalidad:
 Se aplicaron técnicas de feature selection utilizando la importancia de las características mediante un modelo de Random Forest.
 Las variables más importantes fueron el número total de compras (Total_Purchases) y el monto parcial (Amount).
 
-4. Modelado:
+# 4. Modelado:
 Random Forest y Regresión Lineal fueron los algoritmos elegidos para predecir el monto total de las transacciones.
 Random Forest demostró ser el modelo superior, con un R² cercano a 1 y errores significativamente bajos en comparación con la Regresión Lineal.
 
-5. Validación y Evaluación:
+# 5. Validación y Evaluación:
 Se utilizó validación cruzada (5 folds) para asegurar la robustez del modelo, mostrando un R² promedio de 0.9999 para Random Forest.
 El conjunto de prueba confirmó que el modelo de Random Forest capturó mejor la complejidad del problema, con un MSE de 186.45 y un R² de 0.9998, mientras que la regresión lineal tuvo un MSE significativamente mayor.
 
@@ -44,7 +44,7 @@ Los métodos de envío rápidos, como Same-Day, se correlacionan con mayores cal
 
 A pesar de las expectativas, no se observó una diferencia significativa en el monto de compra por género. Ambos géneros presentaron comportamientos de compra similares en cuanto al valor total de sus transacciones.
 
-Recomendaciones:
+### Recomendaciones:
 Optimizar las opciones de envío: Dado que el envío más rápido está relacionado con una mayor satisfacción del cliente, sería recomendable mejorar la logística para ofrecer más opciones rápidas como Same-Day.
 
 Enfocar campañas de marketing: Las categorías de productos con un ticket promedio más alto, como electrónica y ropa, podrían ser el objetivo de campañas de marketing específicas para aumentar las ventas.
