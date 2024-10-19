@@ -51,4 +51,4 @@ Enfocar campañas de marketing: Las categorías de productos con un ticket prome
 
 Seguir monitoreando el comportamiento de los métodos de pago: El hecho de que las compras realizadas con tarjeta de crédito tiendan a ser de mayor valor puede ayudar a diseñar estrategias de fidelización que incentiven el uso de este método.
 
-Este proyecto mostró cómo el análisis de datos y la implementación de modelos de machine learning pueden ayudar a entender mejor el comportamiento del cliente en el sector retail. Las recomendaciones obtenidas podrían ayudar a optimizar las estrategias comerciales y mejorar la experiencia del cliente, basadas en el análisis de datos históricos.
+## Este proyecto mostró cómo el análisis de datos y la implementación de modelos de machine learning pueden ayudar a entender mejor el comportamiento del cliente en el sector retail. Las recomendaciones obtenidas podrían ayudar a optimizar las estrategias comerciales y mejorar la experiencia del cliente, basadas en el análisis de datos históricos.
